@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-feature android:name="android.hardware.type.watch" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="CookBook"
+        android:supportsRtl="true"
+        android:theme="@android:style/Theme.DeviceDefault">
+        <activity
+            android:name=".spagetti"
+            android:exported="false"
+            android:theme="@android:style/Theme.DeviceDefault.NoActionBar" />
+        <activity
+            android:name=".milkshake"
+            android:exported="false"
+            android:theme="@android:style/Theme.DeviceDefault.NoActionBar" />
+        <activity
+            android:name=".blinchik"
+            android:exported="false"
+            android:theme="@android:style/Theme.DeviceDefault.NoActionBar" />
+        <activity
+            android:name=".cesar"
+            android:exported="false"
+            android:theme="@android:style/Theme.DeviceDefault.NoActionBar" />
+        <activity
+            android:name=".borsch"
+            android:exported="false"
+            android:theme="@android:style/Theme.DeviceDefault.NoActionBar" />
+        <activity
+            android:name=".table"
+            android:exported="false"
+            android:theme="@android:style/Theme.DeviceDefault.NoActionBar" />
+        <activity
+            android:name=".main"
+            android:exported="true"
+            android:theme="@android:style/Theme.DeviceDefault.NoActionBar" />
+    </application>
+
+</manifest>
